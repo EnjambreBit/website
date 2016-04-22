@@ -26,3 +26,5 @@ git commit -m "Deploy to GitHub Pages"
 # will be lost, since we are overwriting it.) We redirect any output to
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
 git push --force "https://hugoruscitti:${GITHUB_TOKEN}@github.com/${GITHUB_REPO}" master:gh-pages
+
+echo "Deploy complete: http://enjambrebit.github.io/website "

@@ -1,30 +1,23 @@
----
 language: node_js
 node_js:
-  - "0.12"
-
+- '0.12'
 sudo: false
-
 cache:
   directories:
-    - node_modules
-
+  - node_modules
 before_install:
-  - export PATH=/usr/local/phantomjs-2.0.0/bin:$PATH
-  - "npm config set spin false"
-  - "npm install -g npm@^2"
-
+- export PATH=/usr/local/phantomjs-2.0.0/bin:$PATH
+- npm config set spin false
+- npm install -g npm@^2
 install:
-  - npm install -g bower
-  - npm install
-  - bower install
-
+- npm install -g bower
+- npm install
+- bower install
 script:
-  - npm test
-
+- npm test
 after_success:
-  - bash ./deploy.sh
+- bash ./deploy.sh
 env:
   global:
   - GH_REF: github.com/EnjambreBit/website.git
-  - secure: "VgqYQkNy2lnbkfURFRA+D9VPYK1KOq7Xj40X6CozJQcBZ00ZuJLFrM7wb/2Oo52nbnKqMqT28hvN7DYMNPpAE84Jb3MXk4d3sxuXGy4oIRzW49sprmH9ddVY9uPuCRIhOwYUv/B0OF6puTvK0hnxxRLgn7lSco4WflPdFJcB5OqlLGEY7Z2N7wAfkK58jwGBqEePPF1pu+7KTCe/eNKzG2PtRz6MzbfYSadF/e4a0dO2+65hyjbVs0XwDKY0sNwT/C9RU5+OmGMgrFWklo6X3JLWiOKO11x3HKezpTChR9HZlK8oL6HzxKaAxegjkOwQydAAEoRCg9pxNFuaAT6jUYZrPDVFGAk1KqQgv17qjrs9yeXlH8AvntA7+t7r0jV7CqwmX3xu/SKwv1ojLlvX41uKtls7MpF9maJDAzX27BWG8//R+bIGMWfLMjnJMYfcM10xDWTl6itTSkZJvgNSAjhN0fmt/HF7I1ZCU0byBZFmlD5rqeuAux7vLD4r9ob0pqyVisO+Sn5KPoEqFTM4yysePSm66fQVhr5oPOtfAUy51/JbcQ1L17QuNRl6JkDeoh5ROVDqVw0eUf/Gx4mOgtS4pvinzlIZXY0RZjdZYg0/+Hx5h1Ta+ZUTRaqF5MnFA28ynRXAbfH5fJzsvDTpC7pLB2NtoBj7IrcFwEQcqEM="
+  - secure: FEYoCEiLzHbJhgC4Ia+WnM/QP7wrw3oN7CIb3pit6hHU0hxCuERodESs/a79YXLizDLiHhYRHeaVAwTkVkAEm6MXCYtpdSHN2DWyQsQzd4Jc8Fp/dpGZ2bcoRYctoSqQ1xWbYUZjsPBSyZTghjvRvlikI+ZgC560TMeHDx7xvvI5vNh0X2dQvorivFKU/Oplpk5KndpQlonUaHYntn1KKRXRsCWdOG1gtaODviBs6mUd2lK7fhLpbs64FPiBACKyUoTxatTtm/rWakTZKSia3oyYIdKycDqT+I3spk/1MDylem/twqXXAoosMzO9NNyD3Lieh3aHyvQuX9g2YyOy4JjGqFjQn/Jla2Nw0VECZMBSkX4RnO0RFWRfcFLY8AKH8eFnu034nVbC2DDEASh5kY0e79uGM8vLCNKcNePMGcWJOrTmnkngrhzInOP9zjVUTFsPMv1F/T0NyfRqCx0qBywYgECiA/04intPkPeKB4UlC2McjMQvsc9y/ks+x9MwhT8uPuyyFpqekTdh4QNUKARNRC7tuD+97hs0oHkZmqFr03vzEmEThjzPfYcbLg4aRFhlU7rnBIuNoksRbI65dGmjm8CibekIOmgvx9K9bEphp3pmWVr9nUuiMlwPd+JzGfoCEGV8/krLAgUaByCltfNC3FA6t/LwelHHVuL6BEw=

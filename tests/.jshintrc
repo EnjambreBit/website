@@ -22,7 +22,8 @@
     "currentURL",
     "currentPath",
     "currentRouteName",
-    "$"
+    "$",
+    "jQuery"
   ],
   "node": false,
   "browser": false,

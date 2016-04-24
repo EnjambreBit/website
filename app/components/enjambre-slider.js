@@ -57,32 +57,6 @@ export default Ember.Component.extend({
     });
 
     /*-----------------------------------------------------------------------------------*/
-    /*	SHOWCASE
-    /*-----------------------------------------------------------------------------------*/
-    $(document).ready(function () {
-        var $container = $('.showcase-wrapper .items');
-        $container.imagesLoaded(function () {
-            $container.isotope({
-                itemSelector: '.showcase-wrapper .item',
-                layoutMode: 'fitRows'
-            });
-        });
-
-        $('.showcase-wrapper .filter li a').click(function () {
-
-            $('.showcase-wrapper .filter li a').removeClass('active');
-            $(this).addClass('active');
-
-            var selector = $(this).attr('data-filter');
-            $container.isotope({
-                filter: selector
-            });
-
-            return false;
-        });
-    });
-
-    /*-----------------------------------------------------------------------------------*/
     /*	CONTENT SLIDER
     /*-----------------------------------------------------------------------------------*/
     /**************************************************************************

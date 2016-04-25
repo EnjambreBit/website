@@ -6,19 +6,6 @@ moduleForComponent('enjambre-slider', 'Integration | Component | enjambre slider
 });
 
 test('it renders', function(assert) {
-  // Set any properties with this.set('myProperty', 'value');
-  // Handle any actions with this.on('myAction', function(val) { ... });"
-
   this.render(hbs`{{enjambre-slider}}`);
-
-  assert.equal(this.$().text().trim(), '');
-
-  // Template block usage:"
-  this.render(hbs`
-    {{#enjambre-slider}}
-      template block text
-    {{/enjambre-slider}}
-  `);
-
-  assert.equal(this.$().text().trim(), 'template block text');
+  assert.ok(this.$().text().trim(), "Tiene contenido visible en formato texto.");
 });

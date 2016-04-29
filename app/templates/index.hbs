@@ -185,6 +185,8 @@
 <!-- /.multimedia-divider -->
 
 <section id="contact">
+
+
   <div class="section-head">
     <div class="container">
       <h1></h1>
@@ -196,41 +198,7 @@
     <div class="container inner">
       <div class="row">
         <div class="span7">
-          <div class="form-container">
-            <div class="response alert alert-success">
-            </div>
-            <form class="forms" action="contact/form-handler.php" method="post">
-              <fieldset>
-                <ol>
-                  <li class="form-row text-input-row name-field">
-                    <input type="text" name="name" class="text-input defaultText required" title="Nombre (necesario)" />
-                  </li>
-                  <li class="form-row text-input-row email-field">
-                    <input type="text" name="email" class="text-input defaultText required email" title="Email (necesario)" />
-                  </li>
-                  <li class="form-row text-input-row subject-field">
-                    <input type="text" name="subject" class="text-input defaultText" title="Asunto" />
-                  </li>
-                  <li class="form-row text-area-row">
-                    <textarea name="message" class="text-area required"></textarea>
-                  </li>
-                  <li class="form-row hidden-row">
-                    <input type="hidden" name="hidden" value="" />
-                  </li>
-                  <li>
-                  <div class="g-recaptcha" data-sitekey="6LceXhITAAAAAHNJ7cAXwalj0774rk_jBIp5Qq1L"></div>
-                  </li>
-                  <li class="button-row">
-                    <input type="submit" value="Envíar" name="submit" class="btn btn-submit bm0" />
-                  </li>
-                </ol>
-                <input type="hidden" name="v_error" id="v-error" value="Necesario" />
-                <input type="hidden" name="v_email" id="v-email" value="Ingrese un mail válido" />
-              </fieldset>
-            </form>
-          </div>
-          <!-- /.form-container -->
-          <!-- /.form-container -->
+          <iframe src="http://mailer-form.enjambrelab.com.ar/" width="100%" height="650"></iframe>
         </div>
         <!-- /.span8 -->
         <aside class="span5 sidebar lp10">

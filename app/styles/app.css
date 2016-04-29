@@ -975,7 +975,7 @@ footer.single {
         box-shadow: 0 -3px 0 rgba(0,0,0,0.07);
 }
 .light-wrapper {
-        background: #FFF url('/images/light_background.jpg') no-repeat center center;;
+        background: #FFF url('../images/light_background.jpg') no-repeat center center;;
 }
 section#devel.light-wrapper {
   background: rgba(0,136,170,0.15) none repeat scroll 0% 0%;
@@ -987,7 +987,7 @@ section#videogames.light-wrapper {
   background: rgba(0,128,102,0.15) none repeat scroll 0% 0% !important;
 }
 .dark-wrapper {
-        background: #f0f0f0 url('/images/light_background.jpg') no-repeat center center;
+        background: #f0f0f0 url('../images/light_background.jpg') no-repeat center center;
 }
 .black-wrapper {
         background: #333333;
@@ -1565,7 +1565,7 @@ input[type="submit"].btn::-moz-focus-inner {
     opacity: 1;
 }
 .tp-loader {
-    background: url(/images/loading.gif) no-repeat;
+    background: url(../images/loading.gif) no-repeat;
     background-color: #fff;
     margin: -15px -15px;
     top: 50%;
@@ -1578,7 +1578,7 @@ input[type="submit"].btn::-moz-focus-inner {
 }
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
         .tp-loader {
-            background-image: url(/images/loading@2x.gif)
+            background-image: url(../images/loading@2x.gif)
         }
 }
 .tp-bannertimer {
@@ -1908,21 +1908,21 @@ input[type="submit"].btn::-moz-focus-inner {
     background-attachment: scroll !important
 }
 .parallax.contact {
-    background-image: url(/images/art/paralaje_contact.jpg);
+    background-image: url(../images/art/paralaje_contact.jpg);
     height: 675px;
 }
 .parallax.paralaje_a1 {
-    background-image: url(/images/art/paralaje_a1.jpg);
+    background-image: url(../images/art/paralaje_a1.jpg);
     padding-top: 30px;
     height: 380px;
 }
 .parallax.testimonials {
-        background-image: url(/images/art/parallax2.jpg);
+        background-image: url(../images/art/parallax2.jpg);
     padding-top: 30px;
     height: 380px;
 }
 .parallax.dribbble {
-        background-image: url(/images/art/parallax3.jpg);
+        background-image: url(../images/art/parallax3.jpg);
     height: 561px;
 }
 .parallax .contact-info {
@@ -2589,10 +2589,10 @@ section#servicios .box p {
     right: 20px;
 }
 .viewer li.loading>div {
-    background: url(/images/view-loading.gif) center center no-repeat
+    background: url(../images/view-loading.gif) center center no-repeat
 }
 .multiplebgs .viewer li.loading>div {
-    background: url(/images/view-loading.gif) center center no-repeat
+    background: url(../images/view-loading.gif) center center no-repeat
 }
 .viewer li.loading.previous,
 .viewer li.loading.next {
@@ -2723,10 +2723,10 @@ section#servicios .box p {
             width: 70%;
         }
         .parallax.contact {
-            background-image: url(/images/art/paralaje_contact_1280x800.jpg);
+            background-image: url(../images/art/paralaje_contact_1280x800.jpg);
         }
         .parallax.paralaje_a1 {
-            background-image: url(/images/art/paralaje_a1_1280x800.jpg);
+            background-image: url(../images/art/paralaje_a1_1280x800.jpg);
         }
 }
 @media (min-width: 768px) and (max-width: 979px) {
@@ -2826,10 +2826,10 @@ section#servicios .box p {
             padding-left: 20px;
         }
         .parallax.contact {
-            background-image: url(/images/art/paralaje_contact_1024x640.jpg);
+            background-image: url(../images/art/paralaje_contact_1024x640.jpg);
         }
         .parallax.paralaje_a1 {
-            background-image: url(/images/art/paralaje_a1_1024x640.jpg);
+            background-image: url(../images/art/paralaje_a1_1024x640.jpg);
         }
 }
 @media (max-width: 767px) {
@@ -2979,10 +2979,10 @@ section#servicios .box p {
             padding: 0;
         }
         .parallax.contact {
-            background-image: url(/images/art/paralaje_contact_800x500.jpg);
+            background-image: url(../images/art/paralaje_contact_800x500.jpg);
         }
         .parallax.paralaje_a1 {
-            background-image: url(/images/art/paralaje_a1_800x500.jpg);
+            background-image: url(../images/art/paralaje_a1_800x500.jpg);
         }
 }
 @media only screen and (max-width: 479px) {
@@ -2996,10 +2996,10 @@ section#servicios .box p {
                 font-size: 22px;
         }
         .parallax.contact {
-            background-image: url(/images/art/paralaje_contact_500x313.jpg);
+            background-image: url(../images/art/paralaje_contact_500x313.jpg);
         }
         .parallax.paralaje_a1 {
-            background-image: url(/images/art/paralaje_a1_500x313.jpg);
+            background-image: url(../images/art/paralaje_a1_500x313.jpg);
         }
 }
 /*-----------------------------------------------------------------------------------*/

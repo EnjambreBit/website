@@ -1,3 +1,32 @@
+.bannercontainer {
+	width:100%;
+	position:relative;
+	padding:0;
+}
+
+.banner{
+	width:100%;
+	position:relative;
+}
+
+.banner img {
+  max-width: none;
+}
+
+.banner li {
+  line-height: 0px !important;
+}
+
+.caption {
+  position:absolute;
+  font-size: 23px;
+  color:white;
+}
+
+.caption-invisible {
+  display: none;
+}
+
 /*
 Theme Name: Kyte - Onepage Responsive HTML5 Template
 Theme URI: http://themes.iki-bir.com/kyte

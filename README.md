@@ -10,3 +10,5 @@ de integración contínua llamado travis. Cada vez que hacemos un push al reposi
 se encarga de ejecutar todos los casos de prueba y realizar el deploy a gitpages.
 
 Puedes ver el historial de test de este [sitio en travis.ci](https://travis-ci.org/EnjambreBit/website).
+
+![](preview.png)

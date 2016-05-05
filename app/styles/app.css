@@ -3242,10 +3242,13 @@ blockquote small {
 
 
 .enjambre-section-title {
-  font-size: 30px;
-  font-weight: 300;
-  font-family: 'TRACEROUTE', sans-serif;
-  color: #DC0000;
+	font-size: 30px;
+	font-weight: 300;
+	font-family: 'TRACEROUTE', sans-serif;
+	color: #DC0000;
+	border-bottom: 3px solid rgb(220, 0, 0) !important;
+	position: relative;
+	padding: 10px 0 13px 0;
 }
 
 .enjambre-section-img {

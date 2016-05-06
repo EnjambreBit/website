@@ -1,6 +1,14 @@
 #!/bin/bash
 set -e # exit with nonzero exit code if anything fails
 
+if [ "$TRAVIS_TAG" = "" ]
+then
+  echo "Not a tag, not deploying"
+  exit 0
+else
+  echo "==> Building and deploying tag $TRAVIS_TAG <=="
+fi
+
 # clear and re-create the out directory
 rm -rf out || exit 0;
 mkdir out;

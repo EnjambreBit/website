@@ -6,7 +6,7 @@ export default Ember.Component.extend({
 
     $('.lightbox-wrapper .filter li a').click(function () {
 
-				this.$('.lightbox-wrapper .filter li a').removeClass('active');
+				('.lightbox-wrapper .filter li a').removeClass('active');
 				
         $(this).addClass('active');
 

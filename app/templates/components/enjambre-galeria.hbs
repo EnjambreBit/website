@@ -1,0 +1,42 @@
+  <section id="lightbox" class="light-wrapper">
+    <div class="section-head">
+      <div class="container">
+        <h1>Lightbox Portfolio</h1>
+      </div>
+      <!-- /.container --> 
+    </div>
+    <!-- /.section-head -->
+    <div class="container lightbox-wrapper">
+      <div class="inner">
+        <p class="lead">Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        <div class="divide30"></div>
+        <ul class="filter">
+          <li><a class="active" href="#" data-filter="*">Todos</a></li>
+          <li><a href="#" data-filter=".desarrollo">Desarrollo</a></li>
+          <li><a href="#" data-filter=".multimedia">Multimedia</a></li>
+          <li><a href="#" data-filter=".videojuegos">Videojuegos</a></li>
+        </ul>
+        <!-- /.filter -->
+        
+        <ul class="items thumbs">
+			
+		  {{#enjambre-work-item tagName="" type="desarrollo" title="Indexar" name="indexar" description="Portal de noticias"}}
+			Aca va el contenido, por ejemplo, un video de youtube.
+		  {{/enjambre-work-item}}
+		  
+		  {{#enjambre-work-item tagName="" type="desarrollo multimedia" title="Podcast Igualdad" name="podcast-igualdad" description="Portal de podcasting"}}
+			Aca va el contenido, por ejemplo, un video de youtube.
+		  {{/enjambre-work-item}}
+		  
+		  {{#enjambre-work-item tagName="" type="videojuegos" title="Vaca Voladora" name="p1" description="Algún juego copado para mostrar"}}
+			Aca va el contenido, por ejemplo, un video de youtube.
+		  {{/enjambre-work-item}}
+        </ul>
+        <!--/.items--> 
+      </div>
+      <!--/.inner--> 
+    </div>
+    <!--/.container--> 
+  </section>
+  <!--/#lightbox-->
+

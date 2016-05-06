@@ -15,6 +15,7 @@ module.exports = function(defaults) {
   app.import("vendor/jquery.themepunch.plugins.min.js");
   app.import("vendor/jquery.themepunch.revolution.min.js");
   app.import("vendor/jquery.localScroll.js");
+  app.import("vendor/jquery.isotope.min.js");
   
 
   return app.toTree();

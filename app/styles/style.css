@@ -1004,8 +1004,7 @@ footer.single {
         box-shadow: 0 -3px 0 rgba(0,0,0,0.07);
 }
 .light-wrapper {
-        background: #FFF url('../images/light_background.jpg') no-repeat center center;
-        background-size: cover;
+        background: #FFF url('../images/light_background.jpg') no-repeat;
 }
 section#devel.light-wrapper {
   background: rgba(0,136,170,0.15) none repeat scroll 0% 0%;
@@ -2204,6 +2203,8 @@ input[type="submit"].btn::-moz-focus-inner {
     margin-left: 12px;
     margin-bottom: 12px;
     position: relative;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
 }
 .thumbs li img {
     display: block;

@@ -2874,7 +2874,7 @@ section#servicios .box p {
             height: 420px;
         }
         .parallax.dribbble {
-            height: 757px;Â 
+            height: 757px;
         }
         .grid-blog .post {
                 width: 352px;
@@ -3255,21 +3255,4 @@ blockquote small {
   width: 62px;
   vertical-align: bottom;
   margin-left: 22px;
-}
-
-
-.simple-box {
-  border: 2px solid #BBB;
-  background-color: white;
-  margin: 2em;
-  padding: 4px;
-}
-
-.simple-box-title {
-  margin: -2px;
-  background-color: #A80000;
-  color: white;
-  margin-bottom: 20px;
-  padding: 5px;
-  font-weight: 700;
 }

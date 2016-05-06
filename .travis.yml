@@ -21,7 +21,3 @@ env:
   global:
   - GITHUB_REPO: EnjambreBit/website
   - secure: 1PmAuKdppJXQeD/2aTWhSaRiAl4cw4AMTJkyRSOyH5KDTnTfnhaQmXGoQWnMAKGUzDqIkxNltmZ9hqL4xL3+5wr4nWMHzoPDgo8pjU7Q/lQs0R6SOCnMU5+5ZKMj2e3VblPCYgP+gS6gRYRRkF++4gYZuNO/PMN0hyBOsrhrfi2nMITbedfuEjOab0FetPcK9Z/pnQcpBYi4Gj+Na9Md54t19+G3ToZ+IDOepeKCghHU2tMi8QUUyLZePD6Ms01K3F8mGLtqq8eNtEwRIZkHzq0yrlICoryfRovzWWjrkdh9plsVR+XBGkM01QKn3fhUPuic+fHyTDK0eacinO1p2z4yuVkyALczr/4tiAV4Q1XsMOlzfoEVm1S3+gdNVrmwpdcl4X+Xnlb9ITt+LBnSVlrWN4R1h8p7QP+xO2yat0svPPq/iXIcDCGgc4QburUxnU9vm6gIWTG80Pd9rgDa+IJ6KY6Ch5MwZ3ySTeoAueA+T8ycJbDpDftBAgZuCaM3r3Vu179re0H4oGU2bI/r0Kg7CqemmkurbA4nc6vkNhFR+86U2fHwmZJbBdAEUBdbRIvgSddvZobmJKuCFbz7VR81b9O5VtYp18wc8K5neP7PCuRe602nX6yb68Nus5+hwHqloemHANlRpp9YsvFAZvXAWWFJsq/2b40LtmqQOp4=
-
-deploy:
-  on: 
-    tags: true

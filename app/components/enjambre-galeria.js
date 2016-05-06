@@ -5,12 +5,15 @@ export default Ember.Component.extend({
     var $container = $('.lightbox-wrapper .items');
 
     $('.lightbox-wrapper .filter li a').click(function () {
-        $('.lightbox-wrapper .filter li a').removeClass('active');
+
+				this.$('.lightbox-wrapper .filter li a').removeClass('active');
+				
         $(this).addClass('active');
+
         var selector = $(this).attr('data-filter');
         $container.isotope({
             filter: selector
-        });		
+        });
         return false;
     });
 	}

@@ -12,7 +12,9 @@ export default Ember.Component.extend({
 
     slider.on("revolution.slide.onloaded", () => {
       // Una vez cargado el slider, hace visibles los caption de nuevo.
-      this.$(".caption-invisible").removeClass("caption-invisible");
+      if (this.$(".caption-invisible")) {
+        this.$(".caption-invisible").removeClass("caption-invisible");
+      }
     });
 
   }

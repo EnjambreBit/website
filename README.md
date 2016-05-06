@@ -12,3 +12,4 @@ de tag) travis se encarga de ejecutar todos los casos de prueba y realizar el de
 Puedes ver el historial de test de este [sitio en travis.ci](https://travis-ci.org/EnjambreBit/website).
 
 ![](preview.png)
+

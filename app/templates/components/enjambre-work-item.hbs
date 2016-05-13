@@ -2,10 +2,12 @@
 	{{#ember-remodal as |m|}}
 		{{#m.open}}
 			<a href="images/art/{{name}}.jpg" class="view" data-rel="lightbox" title="{{title}}">
-				<div class="overlay">
+				<div class="overlay" style="background: url('images/art/thumb_overlay_bg.jpg') no-repeat top left;">
 					<div class="info">
 						<h4>{{title}}</h4>
+						<br>
 						<span>{{description}}</span>
+						
 					</div>
 					<!-- /.info --> 
 					</div>

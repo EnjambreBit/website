@@ -10,26 +10,47 @@
       <div class="inner">
         <p class="lead">Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
         <div class="divide30"></div>
-        <ul class="filter">
-          <li><a class="active" href="#" data-filter="*">Todos</a></li>
-          <li><a href="#" data-filter=".desarrollo">Desarrollo</a></li>
-          <li><a href="#" data-filter=".multimedia">Multimedia</a></li>
-          <li><a href="#" data-filter=".videojuegos">Videojuegos</a></li>
-        </ul>
-        <!-- /.filter -->
         
         <ul class="items thumbs">
 			
 			{{#enjambre-work-item tagName="" type="desarrollo" title="Indexar" name="indexar" description="Portal de noticias"}}
-				Ponga su foto aquí
+				<div class="work-item-description">
+					Desarrollo de frontend y mejoras en backend.
+				</div>
+				<div class="work-item-techs">
+					Desarrollado con Laravel, MySQL, Ember, Materialize.
+				</div>
+				<div class="work-item-screenshot">
+					FOTO AQUI
+				</div>
+				<a class="work-item-blog-link" href="http://blog.enjambrelab.com.ar/resena-del-proyecto-indexar-com-ar/">+ info</a>
 			{{/enjambre-work-item}}
 
-			{{#enjambre-work-item tagName="" type="desarrollo multimedia" title="Podcast Igualdad" name="podcast-igualdad" description="Portal de podcasting"}}
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/WIwGV3Y9ufQ" frameborder="0" allowfullscreen></iframe>
+			{{#enjambre-work-item tagName="" type="desarrollo multimedia" title="Podcast Igualdad" name="podcast-igualdad" description="Diseño y desarrollo de un prototipo de portal de podcasting"}}
+				<div class="work-item-description">
+					Diseño de marca y frontend. Desarrollo de plataforma de publicación de podcasts. Animación y edición de videotutoriales y video institucional.
+				</div>
+				<div class="work-item-techs">
+					Desarrollado con Django, SQLite.
+				</div>
+				<div class="work-item-video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/WIwGV3Y9ufQ" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<a class="work-item-blog-link" href="http://blog.enjambrelab.com.ar/">+ info</a>
+				
 			{{/enjambre-work-item}}
 
-			{{#enjambre-work-item tagName="" type="videojuegos" title="Vaca Voladora" name="p1" description="Algún juego copado para mostrar"}}
-				Aca va el contenido, por ejemplo, un video de youtube.
+			{{#enjambre-work-item tagName="" type="desarrollo" title="Spectro" name="spectro" description="Desarrollo de API para manejo de microservicios. "}}
+				<div class="work-item-description">
+					Desarrollo de API para manejo de microservicios.
+				</div>
+				<div class="work-item-techs">
+					Desarrollado con Flask.
+				</div>
+				<div class="work-item-screenshot">
+					FOTO AQUI
+				</div>
+				<a class="work-item-blog-link" href="http://blog.enjambrelab.com.ar/creando-api-con-flask/">+ info</a>
 			{{/enjambre-work-item}}
 			
         </ul>

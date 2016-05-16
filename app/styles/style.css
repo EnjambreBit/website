@@ -3266,10 +3266,23 @@ blockquote small {
 
 .work-item-description {
 	text-align: justify;
+	font-size: 0.9em;
+	line-height: 1.6em;
 }
 
 .work-item-techs {
 	text-align: left;
+	font-size: 0.9em;
+	line-height: 1.6em;
+}
+
+.work-item-techs ul {
+	margin-left: 18px;
+	line-height: 1.6em;
+}
+
+.work-item-techs ul li {
+	line-height: 1.6em;
 }
 
 .work-item-screenshot {

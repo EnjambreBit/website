@@ -991,8 +991,13 @@ blockquote small {
         padding-top: 90px;
 }
 .inner {
-        padding-top: 80px;
+        padding-top: 20px;
         padding-bottom: 80px;
+}
+.inner-contact {
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 footer .inner {
         padding-top: 50px;

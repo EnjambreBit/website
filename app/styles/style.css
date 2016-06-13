@@ -3262,9 +3262,19 @@ blockquote small {
 }
 
 .enjambre-section-img {
-  width: 62px;
+  height: 50px;
   vertical-align: bottom;
   margin-left: 22px;
+	margin-bottom: 4px;
+}
+
+.enjambre-title-bg span {
+	background: url('../images/enjambre_bit_title_bg.png') no-repeat right bottom;
+	height: 50px;
+	padding-top: 26px;
+	padding-right: 20px;
+	display: inline-block;
+	background-size: 56px;
 }
 
 /* Galeria de trabajos */
@@ -3301,13 +3311,13 @@ blockquote small {
 .work-item-video {
 	margin-top: 20px;
 	margin-bottom: 30px;
-	position: relative; 
-	padding-bottom: 56.25%; 
-	height: 0; 
-	overflow: hidden; 
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
 	max-width: 100%;
 	border: 1px solid #777;
-	box-shadow: 0 0 15px #666;		
+	box-shadow: 0 0 15px #666;
 }
 
 .work-item-video iframe {

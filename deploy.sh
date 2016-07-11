@@ -35,4 +35,5 @@ git commit -m "Deploy to GitHub Pages"
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
 git push --force "https://hugoruscitti:${GITHUB_TOKEN}@github.com/${GITHUB_REPO}" master:gh-pages  > /dev/null 2>&1
 
-echo "Deploy complete: http://enjambrebit.github.io/website "
+echo "Deploy complete: http://enjambrebit.github.io/website"
+

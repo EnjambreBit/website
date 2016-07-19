@@ -1,23 +1,22 @@
 <li class="item thumb {{type}}">
 	{{#ember-remodal as |m|}}
 		{{#m.open}}
-			<a href="images/art/{{name}}.jpg" class="view" data-rel="lightbox" title="{{title}}">
-				<div class="overlay" style="background: url('images/art/thumb_overlay_bg.jpg') no-repeat top left;">
+			<a href="images/trabajos/{{name}}.jpg" class="view" data-rel="lightbox" title="{{title}}">
+				<div class="overlay" style="background: url('images/trabajos/thumb_overlay_bg.jpg') no-repeat top left;">
 					<div class="info">
 						<h4>{{title}}</h4>
 						<br>
 						<span>{{description}}</span>
-						
+
 					</div>
-					<!-- /.info --> 
+					<!-- /.info -->
 					</div>
-				<!-- /.overlay --> 
-				<img src="images/art/{{name}}.jpg" alt="{{title}}" />
-			</a> 
+				<!-- /.overlay -->
+				<img src="images/trabajos/{{name}}.jpg" alt="{{title}}" />
+			</a>
 		{{/m.open}}
-		<div class="content">
+		<div class="content work-item-content">
 			{{yield}}
 		</div>
 	{{/ember-remodal}}
 </li>
-

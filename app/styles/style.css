@@ -3291,6 +3291,12 @@ blockquote small {
 	line-height: 1.6em;
 }
 
+.work-item-content h3,
+.work-item-description h5,
+.work-item-techs h5 {
+	color: #DC0000;
+}
+
 .work-item-techs ul {
 	margin-left: 18px;
 	line-height: 1.6em;
@@ -3300,8 +3306,13 @@ blockquote small {
 	line-height: 1.6em;
 }
 
+.work-item-url {
+	text-align: left;
+	font-size: 0.9em;
+}
+
 .work-item-screenshot {
-	margin: 10px auto;
+	margin: 30px auto;
 	width: 90%;
 	min-height: 300px;
 	border: 1px solid #777;
@@ -3326,4 +3337,12 @@ blockquote small {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.work-item-blog-link {
+	background-color: rgb(220, 0, 0);
+	color: white;
+	padding: 4px 10px;
+	font-weight: bold;
+	font-size: 0.8em;
 }

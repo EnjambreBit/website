@@ -3350,13 +3350,16 @@ blockquote small {
 /* Videos */
 
 .fullscreen-bg {
-    position: fixed;
+    position: relative;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     overflow: hidden;
     z-index: -100;
+    background: url('../images/enjambre-bit-logo-video.jpg') center center / cover no-repeat;
+    min-height: 800px;
+    margin-top: 50px;
 }
 
 .fullscreen-bg_video {
@@ -3375,7 +3378,7 @@ blockquote small {
 
 @media (max-width: 767px) {
     .fullscreen-bg {
-        background: url('http://dev2.slicejack.com/fullscreen-video-demo/img/videoframe.jpg') center center / cover no-repeat;
+        background: url('../images/enjambre-bit-logo-video.jpg') center center / cover no-repeat;
     }
 
     .fullscreen-bg__video {

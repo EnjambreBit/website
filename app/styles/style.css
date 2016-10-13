@@ -698,11 +698,15 @@ blockquote small {
 /*      HEADER NAVBAR
 /*-----------------------------------------------------------------------------------*/
 #header.navbar {
+/*
         padding: 8px 0;
-        background: #FFF;
+*/
+        background: rgba(255,255,255,0);
+/*
         -webkit-box-shadow: 0 3px 0 rgba(0,0,0,0.07);
         -moz-box-shadow: 0 3px 0 rgba(0,0,0,0.07);
         box-shadow: 0 3px 0 rgba(0,0,0,0.07);
+*/
         position: relative;
         z-index: 1001;
         width: 100%;
@@ -720,7 +724,7 @@ blockquote small {
 }
 #header.navbar-fixed-top .nav-collapse {
   font-family: 'TRACEROUTE', sans-serif;
-        margin-top: 28px;
+        margin-top: 8px;
 }
 #header.navbar .nav > li {
         margin-left: 50px;
@@ -742,10 +746,14 @@ blockquote small {
     font-size: 18px;
     line-height: 1;
     font-weight: 300;
+/*
     color: #b0b0b0;
+*/
+	color: #fff;
     -webkit-transition: all 200ms ease-in;
     -o-transition: all 200ms ease-in;
     -moz-transition: all 200ms ease-in;
+    text-shadow: none;
 }
 #header.navbar .nav > li > a:hover {
         color: #1abb9c;
@@ -836,6 +844,12 @@ blockquote small {
 }
 #header .btn {
         padding: 10px 17px;
+}
+
+.navbar-fixed-top .container { 
+	width: 100%;
+	padding-right: 30px;
+	padding-left: 50px;
 }
 /*-----------------------------------------------------------------------------------*/
 /*      HEADER NAVBAR SMALL
@@ -1010,6 +1024,9 @@ footer.single {
 }
 .light-wrapper {
         background: #FFF url('../images/light_background.jpg') no-repeat;
+/*
+        background: #FFF url('../images/enjambre-bit-logo-video.jpg') no-repeat;
+*/
 }
 section#devel.light-wrapper {
   background: rgba(0,136,170,0.15) none repeat scroll 0% 0%;
@@ -1951,9 +1968,14 @@ input[type="submit"].btn::-moz-focus-inner {
     height: 380px;
 }
 .parallax.paralaje_a2 {
+/*
     background-image: url(../images/art/paralaje_a2.jpg);
+*/
+/*
     padding-top: 30px;
-    height: 380px;
+*/
+	background-color: #DC0000;
+    height: 3px;
 }
 .parallax.testimonials {
         background-image: url(../images/art/parallax2.jpg);
@@ -2793,7 +2815,9 @@ section#servicios .box p {
             background-image: url(../images/art/paralaje_a1_1280x800.jpg);
         }
         .parallax.paralaje_a2 {
+/*
             background-image: url(../images/art/paralaje_a2_1280x720.jpg);
+*/
         }
 }
 @media (min-width: 768px) and (max-width: 979px) {
@@ -3359,7 +3383,6 @@ blockquote small {
     z-index: -100;
     background: url('../images/enjambre-bit-logo-video.jpg') center center / cover no-repeat;
     min-height: 800px;
-    margin-top: 50px;
 }
 
 .fullscreen-bg_video {

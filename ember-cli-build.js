@@ -4,12 +4,14 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
+	'ember-bootstrap': {
+		'importBootstrapTheme': true
+	},
     fingerprint: {
 	    enabled: false,
      }
   });
 
-  app.import("vendor/bootstrap.css");
   app.import("vendor/enjambre-red.css");
 
   app.import("vendor/jquery.themepunch.plugins.min.js");

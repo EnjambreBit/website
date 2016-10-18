@@ -3424,10 +3424,14 @@ blockquote small {
 
 .bloque-menu {
 	padding: 0;
+	min-height: 268px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .bm-borde {
-	border: 1px solid #555;
+	border: 1px solid #888;
 }
 
 .bloque-menu-label {
@@ -3438,4 +3442,45 @@ blockquote small {
 	border-left: 9px solid rgba(170, 0, 0, 0.9);
 	color: #fff;
 	font-weight: bold;
+}
+
+.bm-quienes-somos {
+	background-image: url('../images/menu-bloques/mb-quienes-somos.png');
+}
+.bm-que-hacemos {
+	background-image: url('../images/menu-bloques/mb-que-hacemos.png');
+}
+.bm-lab {
+	background-image: url('../images/menu-bloques/mb-lab.png');
+}
+.bm-casa-tomada {
+	background-image: url('../images/menu-bloques/mb-casa-tomada.png');
+}
+.bm-blog {
+	background-image: url('../images/menu-bloques/mb-blog.png');
+}
+.bm-logo {
+	background-image: url('../images/menu-bloques/mb-logo.png');
+	background-position: left bottom;
+}
+
+.menu-redes {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #4d4d4d;
+}
+
+.menu-redes ul.social.gray {
+	padding: 0;
+	line-height: 0;
+}
+
+.menu-redes .social.gray li {
+	margin: 0 0 0 10px;
+}
+
+.menu-redes .social.gray a,
+.menu-redes .social.gray a i {
+	color: #4d4d4d;
 }

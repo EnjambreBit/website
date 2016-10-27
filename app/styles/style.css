@@ -1006,7 +1006,9 @@ blockquote small {
 }
 .inner {
         padding-top: 20px;
+/*
         padding-bottom: 80px;
+*/
 }
 .inner-contact {
     width: 100%;
@@ -3276,13 +3278,15 @@ blockquote small {
 
 
 .enjambre-section-title {
-    font-size: 30px;
-    font-weight: 300;
-    font-family: 'TRACEROUTE', sans-serif;
-    color: #DC0000;
-    border-bottom: 3px solid rgb(220, 0, 0) !important;
-    position: relative;
-    padding: 10px 0 13px 0;
+	font-size: 30px;
+	font-weight: 300;
+	font-family: 'TRACEROUTE', sans-serif;
+	color: #DC0000;
+	border-bottom: 1px solid #dc0000 !important;
+	position: relative;
+	padding: 10px 0 13px 0;
+	border-top: 1px solid #dc0000;
+	box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.34);
 }
 
 .enjambre-section-img {
@@ -3409,6 +3413,12 @@ blockquote small {
     }
 }
 
+/* Listas */
+
+li > ul {
+	margin-left: 15px;
+}
+
 /* Main Menu bloques */
 
 .menu-bloques {
@@ -3491,12 +3501,78 @@ blockquote small {
     color: #4d4d4d;
 }
 
+/* Brochure */
+
 /* Quienes somos */
 
-.quienes-somos_video {
+.video-container {
     height: 450px;
     position: relative;
-    min-width: 100%;
-    min-height: 100%;
+    text-align: center;
+}
+.quienes-somos_video,
+.que-hacemos_vide {
+    height: 450px;
+    position: relative;
+    border: 1px solid #bbb;
+}
 
+/* Que hacemos */
+
+.ebit-portfolio {
+	
+}
+
+.ebp {
+	min-height: 220px;
+	border: 1px solid #bbb;
+	margin: 4px;
+}
+
+.ebp > h3 {
+	color: #fff;
+	margin-top: 20px;
+}
+
+.ebp_sonidos-mutantes {
+	color: #fff;
+	background: #fff url('../images/portfolio/ebit-portfolio_sonidos-mutantes.png') no-repeat center center;
+	background-size: contain;
+}
+
+/* Sonidos Mutantes */
+.bg_sonidos-mutantes {
+    background: #FFF url('../images/fondos/enjambre-bit_bg_sonidos-mutantes.png') no-repeat top right;
+}
+
+.sonidos-mutantes {
+	min-height: 708px;
+	color: #fff;
+}
+
+.sonidos-mutantes > h1,
+.sonidos-mutantes > h2,
+.sonidos-mutantes > h3 {
+	color: #fff;
+}
+
+.sonidos-mutantes > ul {
+	margin-left: 15px;
+}
+
+.sonidos-mutantes > ul > li > b {
+	color: #00aa88;
+	font-weight: bold;
+}
+
+@media (max-width: 1440px) {
+    .bloque-menu {
+    width: 452px;
+    height: 258px;
+	}
+
+	.menu-video {
+		width: 450px;
+		height: 256px;
+	}
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
 .bannercontainer {
     width:100%;
     position:relative;
@@ -71,7 +73,8 @@ iframe {
 body {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
-    font-family: 'urw_gothic', sans-serif;
+    /*font-family: 'urw_gothic', sans-serif;*/
+    font-family: 'Archivo Narrow', sans-serif;
     overflow-x: hidden;
     background: #FFF;
     color: #656565;
@@ -86,7 +89,7 @@ input,
 button,
 select,
 textarea {
-    font-family: 'urw_gothic', sans-serif;
+    font-family: 'Archivo Narrow', sans-serif;
     font-size: 15px;
 }
 a {
@@ -106,7 +109,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'urw_gothic', sans-serif;
+    font-family: 'Archivo Narrow', sans-serif;
     /*text-transform: lowercase;*/
     font-weight: 900;
     color: #484848;
@@ -129,7 +132,7 @@ h3 {
         margin-bottom: 15px;
 }
 h4 {
-  font-family: 'urw_gothic',sans-serif;
+  font-family: 'Archivo Narrow',sans-serif;
         font-size: 16px;
         line-height: 18px;
         margin-bottom: 15px;
@@ -846,7 +849,7 @@ blockquote small {
         padding: 10px 17px;
 }
 
-.navbar-fixed-top .container { 
+.navbar-fixed-top .container {
     width: 100%;
     padding-right: 30px;
     padding-left: 50px;
@@ -3419,6 +3422,20 @@ li > ul {
 	margin-left: 15px;
 }
 
+/* Home */
+.ebit-home {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    background: url('../images/enjambre-bit-logo-video.jpg') center center / cover no-repeat;
+    min-height: 950px;
+}
+
+
 /* Main Menu bloques */
 
 .menu-bloques {
@@ -3520,7 +3537,7 @@ li > ul {
 /* Que hacemos */
 
 .ebit-portfolio {
-	
+
 }
 
 .ebp {
@@ -3563,6 +3580,13 @@ li > ul {
 .sonidos-mutantes > ul > li > b {
 	color: #00aa88;
 	font-weight: bold;
+}
+
+@media (max-width: 1800px) {
+  .fullscreen-bg {
+    min-height: 900px;
+  }
+
 }
 
 @media (max-width: 1440px) {

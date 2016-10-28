@@ -1,0 +1,209 @@
+<section id="home" class="offset">
+  {{enjambre-slider}}
+</section>
+
+{{#enjambre-section id="servicios" class="light-wrapper" title="servicios"}}
+  <div class="container inner">
+    <p class="lead"> Creemos que el arte y la tecnología juntos tienen un potencial creativo sin límites. Imaginamos, creamos y desarrollamos tus ideas.
+   </p>
+    <div class="divide20"></div>
+    <div class="row flat-icons text-center">
+      <div class="span4">
+        <div class="icon">
+          <figure><img src="images/icons/icon-devel-big.png" alt="" /></figure>
+        </div>
+        <!-- /.icon -->
+        <div class="box arrow">
+          <h4>Desarrollo</h4>
+          <p class="bm0">Construimos plataformas de software que ayudan a nuestros clientes a alcanzar sus metas. Integramos sus equipos en todas las etapas del proceso de desarrollo para garantizar que la solución se ajuste a sus necesidades.</p>
+        </div>
+        <!-- /.box -->
+      </div>
+      <!-- /.span4 -->
+      <div class="span4">
+        <div class="icon">
+          <figure><img src="images/icons/icon-multimedia-big.png" alt="" /></figure>
+        </div>
+        <!-- /.icon -->
+        <div class="box arrow">
+          <h4>Multimedia</h4>
+          <p class="bm0">
+          Ofrecemos soluciones multimediales para todo tipo de soportes y plataformas. Diseño, fotografía, animación 2D y 3D, motion graphics, recorridos virtuales, realidad aumentada y mucho más. Vos traes la idea y nosotros la hacemos realidad.
+          </p>
+        </div>
+        <!-- /.box -->
+      </div>
+      <!-- /.span4 -->
+      <div class="span4">
+        <div class="icon">
+          <figure><img src="images/icons/icon-videogame-big.png" alt="" /></figure>
+        </div>
+        <!-- /.icon -->
+        <div class="box arrow">
+          <h4>Videojuegos</h4>
+          <p class="bm0">
+          Damos vida a las ideas desde el boceto inicial hasta la publicación de videojuegos en 2D o 3D. Trabajamos con lo último en tecnología para llevar el producto a múltiples plataformas.
+          </p>
+          <div class="divide25"></div>
+        </div>
+        <!-- /.box -->
+      </div>
+      <!-- /.span4 -->
+    </div>
+    <!-- /.row -->
+  </div>
+{{/enjambre-section}}
+
+  <div class="parallax paralaje_a2">
+  <div class="container inner text-center">
+    <div class="divide10"></div>
+
+  </div>
+  <!-- /.container -->
+</div>
+<!-- /.multimedia-divider -->
+
+{{#enjambre-section id="about" class="light-wrapper" title="enjambre bit"}}
+    <div class="container inner inner-about">
+      <!-- <p class="lead">Este es el núcleo de Enjambre Bit.</p>
+      <div class="divide20"></div> -->
+      <div class="row text-center">
+        <div class="span3"> <img src="images/profiles/profile_miguel-garcia.png" class="round small" alt="" />
+          <div class="divide25"></div>
+          <div class="box arrow">
+            <h4>Miguel Ángel García</h4>
+            <h6 class="dark">Software Developer</h6>
+            <div class="divide10"></div>
+              <p>Estudiante de Ciencias de la Computación, especializado en FPGAs. Tiene una vasta experiencia en el desarrollo de sistemas utilizando tecnologías libres.</p>
+<!--
+            <small><a href="http://miguelgarcia.enjambrebit.com.ar/" target="_blank" title="Ver perfil completo de Miguel García">Ver perfil completo</a></small>
+-->
+            <div class="divide55"></div>
+            <ul class="social color">
+              <li><a href="https://ar.linkedin.com/in/zzmike" target="_blank" title="Miguel García en LinkedIn"><i class="icon-s-linkedin"></i></a></li>
+              <li><a href="https://github.com/miguelgarcia" target="_blank" title="Miguel García en GitHub"><i class="icon-s-github"></i></a></li>
+            </ul>
+            <!-- /.social -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.span4 -->
+        <div class="span3"> <img src="images/profiles/profile_ivan-hoffmann.png" class="round small" alt="" />
+          <div class="divide25"></div>
+          <div class="box arrow">
+            <h4>Iván Hoffmann</h4>
+            <h6 class="dark">Digital Artist</h6>
+            <div class="divide10"></div>
+            <p>Artista multimedial con amplio conocimiento de herramientas gráficas 2D, 3D y fotografía. Cuenta con experiencia cortometrajes de animación así como en largometrajes y TV.</p>
+<!--
+            <small><a href="http://ihoffmann.enjambrebit.com.ar/" target="_blank" title="Ver perfil completo de Iván Hoffmann">Ver perfil completo</a></small>
+-->
+            <div class="divide30"></div>
+            <ul class="social color">
+              <li><a href="https://ar.linkedin.com/in/digitalh" target="_blank" title="Iván Hoffmann en LinkedIn"><i class="icon-s-linkedin"></i></a></li>
+              <li><a href="https://instagram.com/digital.h" target="_blank" title="Iván Hoffmann en Instagram"><i class="icon-s-instagram"></i></a></li>
+              <li><a href="https://github.com/digitalh" target="_blank" title="Iván Hoffmann en GitHub"><i class="icon-s-github"></i></a></li>
+            </ul>
+            <!-- /.social -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.span4 -->
+        <div class="span3"> <img src="images/profiles/profile_hugo-ruscitti.png" class="round small" alt="" />
+          <div class="divide25"></div>
+          <div class="box arrow">
+            <h4>Hugo Ruscitti</h4>
+            <h6 class="dark">Game Developer</h6>
+            <div class="divide10"></div>
+            <p>Programador de videojuegos y webapps. Creador de Pilas Engine e impulsor del desarrollo de aplicaciones visuales que fomenten aprender programación.</p>
+<!--
+            <small><a href="http://hugoruscitti.enjambrebit.com.ar/" target="_blank" title="Ver perfil completo de Hugo Ruscitti">Ver perfil completo</a></small>
+-->
+            <div class="divide30"></div>
+            <ul class="social color">
+              <li><a href="https://www.linkedin.com/in/hugoruscitti/" target="_blank" title="Hugo Ruscitti en LinkedIn"><i class="icon-s-linkedin"></i></a></li>
+              <li><a href="https://github.com/hugoruscitti" target="_blank" title="Hugo Ruscitti en GitHub"><i class="icon-s-github"></i></a></li>
+            </ul>
+            <!-- /.social -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.span4 -->
+        <div class="span3"> <img src="images/profiles/profile_hector-sanchez.png" class="round small" alt="" />
+          <div class="divide25"></div>
+          <div class="box arrow">
+            <h4>Héctor Sanchez</h4>
+            <h6 class="dark">Project Manager</h6>
+            <div class="divide10"></div>
+            <p>Analista de Sistemas / Programador con amplia experiencia en liderar y gestionar proyectos IT de gran escala. Posee conocimientos en varios lenguajes de programación, Networking y GNU/Linux.</p>
+<!--
+            <small><a href="http://hsanchez.enjambrebit.com.ar/" target="_blank" title="Ver perfil completo de Héctor Sanchez">Ver perfil completo</a></small>
+-->
+            <div class="divide5"></div>
+            <ul class="social color">
+              <li><a href="https://twitter.com/hectorksanchez" target="_blank" title="Héctor Sanchez en Twitter"><i class="icon-s-twitter"></i></a></li>
+              <li><a href="https://ar.linkedin.com/in/karucha" target="_blank" title="Héctor Sanchez en LinkedIn"><i class="icon-s-linkedin"></i></a></li>
+              <li><a href="https://github.com/hectorsanchez" target="_blank" title="Héctor Sanchez en GitHub"><i class="icon-s-github"></i></a></li>
+            </ul>
+            <!-- /.social -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.span4 -->
+        </div>
+        <div class="divide45"></div>
+        <!-- /.row -->
+        <div class="row tecnologias-row">
+            <div class="tecnologias">
+                <img src="images/tecnologias/gnulinux.png" alt="GNU/Linux"/>
+                <img src="images/tecnologias/python.png" alt="Python"/>
+                <img src="images/tecnologias/django.png" alt="Django"/>
+                <img src="images/tecnologias/flask.png" alt="Flask"/>
+                <img src="images/tecnologias/php.png" alt="PHP"/>
+                <img src="images/tecnologias/symfony.png" alt="Symfony 2"/>
+                <img src="images/tecnologias/laravel.png" alt="Laravel"/>
+                <img src="images/tecnologias/emberjs.png" alt="Ember JS"/>
+                <img src="images/tecnologias/nodejs.png" alt="Node JS"/>
+                <img src="images/tecnologias/materialize.png" alt="Materialize"/>
+                <img src="images/tecnologias/elixir.png" alt="Elixir"/>
+                <img src="images/tecnologias/postgresql.png" alt="PostgreSQL"/>
+                <img src="images/tecnologias/mysql.png" alt="MySQL"/>
+                <img src="images/tecnologias/unity.png" alt="Unity"/>
+                <img src="images/tecnologias/android.png" alt="Android"/>
+            </div>
+        </div>
+      </div>
+{{/enjambre-section}}
+
+<div class="parallax paralaje_a2">
+  <div class="container inner text-center">
+    <div class="divide10"></div>
+  </div>
+</div>
+
+
+{{#enjambre-section id="contact" class="" title="contacto"}}
+  <div class="parallax contact">
+    <div class="container inner">
+      <div class="row">
+        <div class="span7">
+          <iframe src="http://mailer-form.enjambrelab.com.ar/" width="100%" height="650"></iframe>
+        </div>
+        <!-- /.span8 -->
+        <aside class="span5 sidebar lp10">
+          <div class="sidebox widget">
+                <img style="margin: 20px 0px 30px 50px" src="images/enjambre_bit_isologo.png" />
+            <ul class="contact-info">
+              <li><i class="icon-location"></i> Ciudad Autónoma de Buenos Aires, Argentina</li>
+              <li><i class="icon-mail"></i> <a href="mailto:contacto@enjambrebit.com.ar">contacto@enjambrebit.com.ar</a></li>
+              <li><a href="https://twitter.com/enjambrebit"><i class="icon-s-twitter"></i> Seguinos en Twitter!</a></li>
+              <li><a href="https://facebook.com/EnjambreBit"><i class="icon-s-facebook"></i> Visitanos en Facebook!</a></li>
+              <li><a href="https://www.linkedin.com/company/enjambre-bit-srl"><i class="icon-s-linkedin"></i> Nuestro perfil en LinkedIn.</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+{{/enjambre-section}}

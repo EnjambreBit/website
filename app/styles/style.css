@@ -78,7 +78,10 @@ body {
     overflow-x: hidden;
     background: #FFF;
     color: #656565;
-    font-size: 15px;
+    font-size: 20px;
+}
+.body-wrapper {
+  height: 0;
 }
 body,
 li,
@@ -1033,6 +1036,12 @@ footer.single {
         background: #FFF url('../images/enjambre-bit-logo-video.jpg') no-repeat;
 */
 }
+
+.contact-wrapper {
+    background-image: url(../images/art/paralaje_contact.jpg);
+    height: 675px;
+}
+
 section#devel.light-wrapper {
   background: rgba(0,136,170,0.15) none repeat scroll 0% 0%;
 }
@@ -3523,7 +3532,7 @@ li > ul {
 /* Quienes somos */
 
 .video-container {
-    height: 450px;
+    /*height: 450px;*/
     position: relative;
     text-align: center;
 }
@@ -3541,14 +3550,20 @@ li > ul {
 }
 
 .ebp {
-	min-height: 220px;
+	min-height: 203px;
 	border: 1px solid #bbb;
-	margin: 4px;
 }
 
 .ebp > h3 {
-	color: #fff;
-	margin-top: 20px;
+  position: relative;
+  text-align: right;
+  background-color: rgba(77, 77, 77, 0.9);
+  padding: 4px 14px;
+  border-left: 9px solid rgba(170, 0, 0, 0.9);
+  color: #fff;
+  font-weight: normal;
+  width: auto;
+  float:right;
 }
 
 .ebp_sonidos-mutantes {
@@ -3557,29 +3572,73 @@ li > ul {
 	background-size: contain;
 }
 
-/* Sonidos Mutantes */
-.bg_sonidos-mutantes {
-    background: #FFF url('../images/fondos/enjambre-bit_bg_sonidos-mutantes.png') no-repeat top right;
+.ebp_sadosky {
+	color: #fff;
+	background: #fff url('../images/portfolio/ebit-portfolio_sadosky.png') no-repeat center center;
+	background-size: contain;
 }
 
-.sonidos-mutantes {
+.ebp_wdf {
+	color: #fff;
+	background: #fff url('../images/portfolio/ebit-portfolio_wdf.png') no-repeat center center;
+	background-size: contain;
+}
+
+.ebp_indexar {
+	color: #fff;
+	background: #fff url('../images/portfolio/ebit-portfolio_indexar.png') no-repeat center center;
+	background-size: contain;
+}
+
+.ebp_berko {
+	color: #fff;
+	background: #fff url('../images/portfolio/ebit-portfolio_berko.png') no-repeat center center;
+	background-size: contain;
+}
+
+.ebp_podcast-igualdad {
+	color: #fff;
+	background: #fff url('../images/portfolio/ebit-portfolio_podcast-igualdad.png') no-repeat center center;
+	background-size: contain;
+}
+
+
+/* Sonidos Mutantes */
+.bg_sonidos-mutantes {
+    background: #FFF url('../images/fondos/enjambre-bit_bg_sonidos-mutantes.png') no-repeat center right;
+    background-size: cover;
+}
+
+.sonidos-mutantes,
+.lab {
 	min-height: 708px;
 	color: #fff;
 }
 
 .sonidos-mutantes > h1,
 .sonidos-mutantes > h2,
-.sonidos-mutantes > h3 {
+.sonidos-mutantes > h3,
+.lab > h1,
+.lab > h2,
+.lab > h3 {
 	color: #fff;
 }
 
-.sonidos-mutantes > ul {
+.sonidos-mutantes > ul,
+.lab > ul {
 	margin-left: 15px;
 }
 
-.sonidos-mutantes > ul > li > b {
+.sonidos-mutantes > ul > li > b,
+.lab > ul > li > b {
 	color: #00aa88;
 	font-weight: bold;
+}
+
+/* Lab */
+.bg_lab {
+    background: #FFF url('../images/fondos/enjambre-bit_bg_proyector-holografico.png') no-repeat center right;
+    background-size: cover;
 }
 
 @media (max-width: 1800px) {

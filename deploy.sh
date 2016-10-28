@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e # exit with nonzero exit code if anything fails
 
+echo "Evaluando hacer deploy sobre ${GITHUB_REPO} ..."
+
 if [ "$TRAVIS_TAG" = "" ]
 then
   echo "Not a tag, not deploying"

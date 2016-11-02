@@ -3451,7 +3451,7 @@ li > ul {
     position: absolute;
     width: 98%;
     top: 50%;
-    left:50%;
+    left:49.5%;
         -webkit-transform: translate(-50%, -50%);
        -moz-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -3650,12 +3650,57 @@ li > ul {
 
 @media (max-width: 1440px) {
     .bloque-menu {
-    width: 452px;
-    height: 258px;
+		width: 452px;
+		height: 258px;
 	}
 
 	.menu-video {
 		width: 450px;
 		height: 256px;
+	}
+}
+
+@media (max-width: 1366px) {
+    .bloque-menu {
+		width: 402px;
+		height: 228px;
+	}
+
+	.menu-video {
+		width: 400px;
+		height: 226px;
+	}
+}
+
+@media (max-width: 1280px) {
+    .bloque-menu {
+		width: 362px;
+		height: 207px;
+	}
+
+	.menu-video {
+		width: 360px;
+		height: 205px;
+	}
+}
+
+@media (max-width: 1024px) {
+    .bloque-menu {
+		width: 302px;
+		height: 173px;
+	}
+
+	.menu-video {
+		width: 300px;
+		height: 171px;
+	}
+	.menu-redes > ul.social.gray > li {
+		font-size: 18px;
+	}
+}
+
+@media (max-height: 900px) {
+	.ebit-home {
+		min-height: 810px;
 	}
 }

@@ -3390,13 +3390,13 @@ blockquote small {
 /* Videos */
 
 .fullscreen-bg {
-    position: relative;
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     overflow: hidden;
-    z-index: -100;
+    z-index: 1000;
     background: url('../images/enjambre-bit-logo-video.jpg') center center / cover no-repeat;
     min-height: 800px;
 }
@@ -3432,6 +3432,7 @@ li > ul {
 }
 
 /* Home */
+
 .ebit-home {
     position: relative;
     top: 0;

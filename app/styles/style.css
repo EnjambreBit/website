@@ -3415,15 +3415,6 @@ blockquote small {
         transform: translate(-50%, -50%);
 }
 
-@media (max-width: 767px) {
-    .fullscreen-bg {
-        background: url('../images/enjambre-bit-logo-video.jpg') center center / cover no-repeat;
-    }
-
-    .fullscreen-bg__video {
-        display: none;
-    }
-}
 
 /* Listas */
 
@@ -3623,9 +3614,9 @@ li > ul {
 	color: #fff;
 }
 
-.sonidos-mutantes > h1,
-.sonidos-mutantes > h2,
-.sonidos-mutantes > h3,
+.sonidos-mutantes h1,
+.sonidos-mutantes h2,
+.sonidos-mutantes h3,
 .lab h1,
 .lab h2,
 .lab h3 {
@@ -3715,4 +3706,15 @@ li > ul {
 	.ebit-home {
 		min-height: 810px;
 	}
+	.fullscreen-bg {
+        display: none;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+
 }

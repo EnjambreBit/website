@@ -3431,6 +3431,13 @@ li > ul {
 	margin-left: 15px;
 }
 
+/* Prompts */
+
+.prompt {
+	color: rgb(255,30,30);
+	font-weight: bold;
+}
+
 /* Home */
 
 .ebit-home {
@@ -3619,9 +3626,9 @@ li > ul {
 .sonidos-mutantes > h1,
 .sonidos-mutantes > h2,
 .sonidos-mutantes > h3,
-.lab > h1,
-.lab > h2,
-.lab > h3 {
+.lab h1,
+.lab h2,
+.lab h3 {
 	color: #fff;
 }
 
@@ -3634,6 +3641,10 @@ li > ul {
 .lab > ul > li > b {
 	color: #00aa88;
 	font-weight: bold;
+}
+
+.lab p a {
+	color: rgb(250,30,30);
 }
 
 /* Lab */

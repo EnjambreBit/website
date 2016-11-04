@@ -3700,12 +3700,6 @@ li > ul {
 	.menu-redes > ul.social.gray > li {
 		font-size: 18px;
 	}
-}
-
-@media (max-height: 900px) {
-	.ebit-home {
-		min-height: 810px;
-	}
 	.fullscreen-bg {
         display: none;
     }
@@ -3713,6 +3707,12 @@ li > ul {
     .fullscreen-bg__video {
         display: none;
     }
+}
+
+@media (max-height: 900px) {
+	.ebit-home {
+		min-height: 810px;
+	}
 }
 
 @media (max-width: 767px) {

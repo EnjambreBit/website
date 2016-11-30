@@ -3387,6 +3387,11 @@ blockquote small {
     font-size: 0.8em;
 }
 
+/* Site wrapper */
+#site-wrapper {
+  display: none;
+}
+
 /* Videos */
 
 .fullscreen-bg {
@@ -3428,6 +3433,8 @@ li > ul {
 	color: rgb(255,30,30);
 	font-weight: bold;
 }
+
+
 
 /* Home */
 

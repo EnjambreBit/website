@@ -4,9 +4,10 @@ export default Ember.Component.extend({
     didInsertElement(){
 		/* Video inicial */
 		$("#welcome-video").bind("ended", function() {
+      $("#site-wrapper").show();
 			$("#welcome-video-container").fadeOut("slow");
 		});
-		
+
 		/* Quienes somos home */
 		$("#quienes-somos-video-home").bind("play", function() {
 			$("#quienes-somos-home-link").fadeOut("fast");
@@ -17,7 +18,7 @@ export default Ember.Component.extend({
 		$("#quienes-somos-video-home").bind("pause", function() {
 			$("#quienes-somos-home-link").fadeIn("slow");
 		});
-		
+
 		/* Que hacemos home */
 		$("#que-hacemos-video-home").bind("play", function() {
 			$("#que-hacemos-home-link").fadeOut("fast");

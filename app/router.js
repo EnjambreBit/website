@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('playground');
   this.route('test-galeria');
   this.route('index_v2');
+  this.route('carousel-test');
 });
 
 export default Router;

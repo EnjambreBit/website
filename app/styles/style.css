@@ -3768,6 +3768,9 @@ right: 50px;
     .fullscreen-bg__video {
         display: none;
     }
+    #home-placeholder {
+		display: none;
+    }
 }
 
 @media (max-height: 900px) {

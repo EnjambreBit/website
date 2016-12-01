@@ -1032,6 +1032,7 @@ footer.single {
 }
 .light-wrapper {
         background: #FFF url('../images/light_background.jpg') no-repeat;
+        background-size: cover;
 /*
         background: #FFF url('../images/enjambre-bit-logo-video.jpg') no-repeat;
 */
@@ -3387,11 +3388,6 @@ blockquote small {
     font-size: 0.8em;
 }
 
-/* Site wrapper */
-#site-wrapper {
-  display: none;
-}
-
 /* Videos */
 
 .fullscreen-bg {
@@ -3402,6 +3398,18 @@ blockquote small {
     left: 0;
     overflow: hidden;
     z-index: 1000;
+    background: url('../images/enjambre-bit-logo-video.jpg') center center / cover no-repeat;
+    min-height: 800px;
+}
+
+.home-placeholder-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 999;
     background: url('../images/enjambre-bit-logo-video.jpg') center center / cover no-repeat;
     min-height: 800px;
 }
@@ -3556,55 +3564,101 @@ li > ul {
 }
 
 .ebp {
-	min-height: 203px;
+	min-height: 600px;
+/*
 	border: 1px solid #bbb;
+*/
+background-color: transparent;
 }
 
-.ebp > h3 {
-  position: relative;
-  text-align: right;
-  background-color: rgba(77, 77, 77, 0.9);
-  padding: 4px 14px;
-  border-left: 9px solid rgba(170, 0, 0, 0.9);
-  color: #fff;
-  font-weight: normal;
-  width: auto;
-  float:right;
+.ebp h3 {
+	position: relative;
+	text-align: center;
+	padding: 12px 10%;
+	color: #fff;
+	font-weight: normal;
+	font-size: 1.5em;
+	background-color: rgba(0, 0, 0, 0.56);
 }
 
+.yellow {
+	color: #ffcc00;
+}
+
+.red {
+	color: #d40000;
+}
+.aligner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.aligner-item {
+/*
+	max-with: 50%;
+*/
+}
+
+.line-arrow {
+position: absolute;
+overflow: hidden;
+display: inline-block;
+font-size: 12px;
+width: 40px;
+height: 40px;
+margin-top: -20px;
+top: 50%;
+cursor: pointer;
+z-index: 500;
+}
+
+.line-arrow-left {
+border-top: 2px solid #d40000;
+border-left: 2px solid #d40000;
+transform: rotate(-54deg) skew(-20deg);
+left: 50px;
+}
+
+.line-arrow-right {
+border-top: 2px solid #d40000;
+border-right: 2px solid #d40000;
+transform: rotate(54deg) skew(20deg);
+right: 50px;
+}
 .ebp_sonidos-mutantes {
 	color: #fff;
-	background: #fff url('../images/portfolio/ebit-portfolio_sonidos-mutantes.png') no-repeat center center;
+	background: transparent url('../images/portfolio/ebit-portfolio_sonidos-mutantes.png') no-repeat center center;
 	background-size: contain;
 }
 
 .ebp_sadosky {
 	color: #fff;
-	background: #fff url('../images/portfolio/ebit-portfolio_sadosky.png') no-repeat center center;
+	background: transparent url('../images/portfolio/ebit-portfolio_sadosky.png') no-repeat center center;
 	background-size: contain;
 }
 
 .ebp_wdf {
 	color: #fff;
-	background: #fff url('../images/portfolio/ebit-portfolio_wdf.png') no-repeat center center;
+	background: transparent url('../images/portfolio/ebit-portfolio_wdf.png') no-repeat center center;
 	background-size: contain;
 }
 
 .ebp_indexar {
 	color: #fff;
-	background: #fff url('../images/portfolio/ebit-portfolio_indexar.png') no-repeat center center;
+	background: transparent url('../images/portfolio/ebit-portfolio_indexar.png') no-repeat center center;
 	background-size: contain;
 }
 
 .ebp_berko {
 	color: #fff;
-	background: #fff url('../images/portfolio/ebit-portfolio_berko.png') no-repeat center center;
+	background: transparent url('../images/portfolio/ebit-portfolio_berko.png') no-repeat center center;
 	background-size: contain;
 }
 
 .ebp_podcast-igualdad {
 	color: #fff;
-	background: #fff url('../images/portfolio/ebit-portfolio_podcast-igualdad.png') no-repeat center center;
+	background: transparent url('../images/portfolio/ebit-portfolio_podcast-igualdad.png') no-repeat center center;
 	background-size: contain;
 }
 

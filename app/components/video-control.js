@@ -4,7 +4,7 @@ export default Ember.Component.extend({
     didInsertElement(){
 		/* Video inicial */
 		$("#welcome-video").bind("ended", function() {
-      $("#site-wrapper").show();
+			$("#home-placeholder").hide();
 			$("#welcome-video-container").fadeOut("slow");
 		});
 

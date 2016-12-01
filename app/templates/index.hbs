@@ -4,31 +4,32 @@
 		<source src="video/enjambre-bit-logo-bg.ogv" type="video/ogg">
 	</video>
 </div>
-<div id="site-wrapper">
+<div class="home-placeholder-bg" id="home-placeholder"></div>
 <section id="home" class="ebit-home">
     <div class="container-fluid menu-bloques">
         <div class="row">
             <div class="col-md-4">
 							<div class="col-md-12 bloque-menu bm-borde bm-quienes-somos">
+								<a href="#quienes-somos" id="quienes-somos-home-link">
+								<div class="bloque-menu-label">quiénes somos</div>
+			        </a>
 								<video muted controls poster="" class="menu-video" id="quienes-somos-video-home">
 									<source src="video/enjambre-bit_quienes-somos_12fps.mp4" type="video/mp4">
 									<source src="video/enjambre-bit_quienes-somos_12fps.ogv" type="video/ogg">
 								</video>
 							</div>
-							<a href="#quienes-somos" id="quienes-somos-home-link">
-								<div class="bloque-menu-label">quiénes somos</div>
-			        </a>
+
             </div>
             <div class="col-md-4">
 				<div class="col-md-12 bloque-menu bm-borde bm-que-hacemos">
+				<a href="#que-hacemos" id="que-hacemos-home-link">
+					<div class="bloque-menu-label">qué hacemos</div>
+                </a>
 					<video muted controls poster="" class="menu-video" id="que-hacemos-video-home">
 						<source src="video/enjambre-bit_que-hacemos_12fps.mp4" type="video/mp4">
 						<source src="video/enjambre-bit_que-hacemos_12fps.ogv" type="video/ogg">
 					</video>
 				</div>
-				<a href="#que-hacemos" id="que-hacemos-home-link">
-					<div class="bloque-menu-label">qué hacemos</div>
-                </a>
             </div>
             <div class="col-md-4">
                 <div class="col-md-12 bloque-menu bm-logo">
@@ -76,7 +77,7 @@
 {{#enjambre-section id="quienes-somos" class="light-wrapper" title="quiénes somos"}}
     <div class="container inner inner-about">
 		<div class="video-container">
-			<video muted autoplay poster="" class="quienes-somos_video">
+			<video muted controls poster="" class="quienes-somos_video">
 				<source src="video/enjambre-bit-logo-bg.mp4" type="video/mp4">
 				<source src="video/enjambre-bit-logo-bg.ogv" type="video/ogg">
 			</video>
@@ -101,66 +102,78 @@
 {{/enjambre-section}}
 
 {{#enjambre-section id="que-hacemos" class="light-wrapper" title="qué hacemos"}}
-    <div class="container inner inner-about">
       <div class="video-container">
   		  <video muted controls poster="" class="que-hacemos_video">
   					<source src="video/enjambre-bit_que-hacemos_12fps.mp4" type="video/mp4">
   					<source src="video/enjambre-bit_que-hacemos_12fps.ogv" type="video/ogg">
   			</video>
       </div>
-      <div class="ebit-portfolio">
-        <h3>Algunos trabajos</h3>
-  		  <div class="row">
-			<div class="col-md-4">
-				<a href="#casa-tomada">
-					<div class="ebp ebp_sonidos-mutantes">
-						<h3>Sonidos Mutantes | VJ</h3>
-					</div>
-				</a>
-			</div>
-			<div class="col-md-4">
-				<a href="http://pilasbloques.program.ar/" title="Pilas Bloques" target="_blank">
-				<div class=" ebp ebp_sadosky">
-					<h3>Fundación Sadosky | Videojuegos | Desarrollo</h3>
-				</div>
-				</a>
 
-			</div>
-			<div class="col-md-4">
-			  <a href="http://fdm.rio20.net/?q=es/node/2115" title="World Democratic Forum" target="_blank">
-				<div class=" ebp ebp_wdf">
-					<h3>World Democratic Forum | Responsive Design</h3>
-				</div>
-			  </a>
-			</div>
-  		  </div>
-        <div class="divide15"></div>
-  		  <div class="row">
-    			<div class="col-md-4">
-					<a href="http://www.indexar.com.ar" title="Indexar" target="_blank">
-						<div class=" ebp ebp_indexar">
-							<h3>Indexar | Front End | Desarrollo</h3>
-						</div>
-					</a>
-    			</div>
-    			<div class="col-md-4">
-					<a href="http://www.berko.com.ar" title="Precintos Berko S.A." target="_blank">
-						<div class=" ebp ebp_berko">
-							<h3>Berko S.A. | Website</h3>
-						</div>
-					</a>
-    			</div>
-			  <div class="col-md-4">
-				  <a href="http://www.podcastigualdad.com.ar" title="Podcast Igualdad" target="_blank">
-					  <div class=" ebp ebp_podcast-igualdad">
-						<h3>Podcast Igualdad | Desarrollo</h3>
-					</div>
-				  </a>
 
-					</div>
-			  </div>
-      </div>
-    </div>
+				{{#carousel-container transition-interval=500}}
+				  {{#carousel-body}}
+				    {{#carousel-item}}
+							<a href="#casa-tomada">
+								<div class="aligner ebp ebp_sonidos-mutantes">
+									<div class="aligner-item">
+										<h3>Sonidos Mutantes <span class="red">|</span> <span class="yellow">VJ</span></h3>
+									</div>
+								</div>
+							</a>
+				    {{/carousel-item}}
+				    {{#carousel-item}}
+							<a href="http://pilasbloques.program.ar/" title="Pilas Bloques" target="_blank">
+								<div class="aligner ebp ebp_sadosky">
+									<div class="aligner-item">
+										<h3>Fundación Sadosky <span class="red">|</span> <span class="yellow">Videojuegos <span class="red">|</span> Desarrollo</span></h3>
+									</div>
+								</div>
+							</a>
+				    {{/carousel-item}}
+				    {{#carousel-item}}
+							<a href="http://fdm.rio20.net/?q=es/node/2115" title="World Democratic Forum" target="_blank">
+								<div class="aligner ebp ebp_wdf">
+									<div class="aligner-item">
+										<h3>World Democratic Forum <span class="red">|</span> <span class="yellow">Responsive Design</span></h3>
+									</div>
+								</div>
+							</a>
+				    {{/carousel-item}}
+				    {{#carousel-item}}
+							<a href="http://www.indexar.com.ar" title="Indexar" target="_blank">
+								<div class="aligner ebp ebp_indexar">
+									<div class="aligner-item">
+										<h3>Indexar <span class="red">|</span> <span class="yellow">Frontend <span class="red">|</span> Desarrollo</span></h3>
+									</div>
+								</div>
+							</a>
+				    {{/carousel-item}}
+				    {{#carousel-item}}
+						<a href="http://www.berko.com.ar" title="Precintos Berko S.A." target="_blank">
+							<div class="aligner ebp ebp_berko">
+								<div class="aligner-item">
+									<h3>Berko S.A. <span class="red">|</span> <span class="yellow">Website Design</span></h3>
+								</div>
+							</div>
+						</a>
+				    {{/carousel-item}}
+				    {{#carousel-item}}
+						<a href="http://www.podcastigualdad.com.ar" title="Podcast Igualdad" target="_blank">
+							<div class="aligner ebp ebp_podcast-igualdad">
+								<div class="aligner-item">
+									<h3>Podcast Igualdad <span class="red">|</span> <span class="yellow">Desarrollo</span></h3>
+								</div>
+							</div>
+						</a>
+				    {{/carousel-item}}
+				  {{/carousel-body}}
+
+				  {{#carousel-arrow direction="left" tagName="div" class="line-arrow line-arrow-left"}}
+				  {{/carousel-arrow}}
+				  {{#carousel-arrow direction="right" tagName="div" class="line-arrow line-arrow-right"}}
+				  {{/carousel-arrow}}
+				{{/carousel-container}}
+
 {{/enjambre-section}}
 
 {{#enjambre-section id="lab" class="bg_lab" title="lab"}}
@@ -228,5 +241,5 @@
       <div class="clearfix"></div>
     </div>
 {{/enjambre-section}}
-</div>
+
 {{video-control}}

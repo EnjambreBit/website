@@ -5,8 +5,8 @@ export default Ember.Component.extend({
 
     let slider = this.$("#slider").revolution({
       sliderType: "hero",
-      startwidth: 1920,
-      startheight: 1080,
+      startwidth: 1900,
+      startheight: 600,
       sliderLayout: "fullwidth",
     });
 

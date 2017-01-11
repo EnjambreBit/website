@@ -1235,103 +1235,103 @@ section#videogames.light-wrapper {
     background-color: #ff680d
 }
 a:hover .icon-s-pinterest {
-    color: #c53942 !important
+    color: #c53942
 }
 a:hover .icon-s-rss {
-    color: #e86f04 !important
+    color: #e86f04
 }
 a:hover .icon-s-facebook {
-    color: #4470cf !important
+    color: #4470cf
 }
 a:hover .icon-s-twitter {
-    color: #5daed5 !important
+    color: #5daed5
 }
 a:hover .icon-s-flickr {
-    color: #ff0088 !important
+    color: #ff0088
 }
 a:hover .icon-s-dribbble {
-    color: #d07ead !important
+    color: #d07ead
 }
 a:hover .icon-s-behance {
-    color: #098ffa !important
+    color: #098ffa
 }
 a:hover .icon-s-linkedin {
-    color: #3393c1 !important
+    color: #3393c1
 }
 a:hover .icon-s-vimeo {
-    color: #099fc7 !important
+    color: #099fc7
 }
 a:hover .icon-s-youtube {
-    color: #c8312b !important
+    color: #c8312b
 }
 a:hover .icon-s-skype {
-    color: #2ebbf0 !important
+    color: #2ebbf0
 }
 a:hover .icon-s-tumblr {
-    color: #5d82a4 !important
+    color: #5d82a4
 }
 a:hover .icon-s-delicious {
-    color: #3274d1 !important
+    color: #3274d1
 }
 a:hover .icon-s-500px {
-    color: #00a6df !important
+    color: #00a6df
 }
 a:hover .icon-s-grooveshark {
-    color: #f66c00 !important
+    color: #f66c00
 }
 a:hover .icon-s-forrst {
-    color: #2f7935 !important
+    color: #2f7935
 }
 a:hover .icon-s-digg {
-    color: #1b5891 !important
+    color: #1b5891
 }
 a:hover .icon-s-blogger {
-    color: #fc6605 !important
+    color: #fc6605
 }
 a:hover .icon-s-klout {
-    color: #d8390f !important
+    color: #d8390f
 }
 a:hover .icon-s-dropbox {
-    color: #016aab !important
+    color: #016aab
 }
 a:hover .icon-s-github {
-    color: #4073a6 !important
+    color: #4073a6
 }
 a:hover .icon-s-songkick {
-    color: #ff0030 !important
+    color: #ff0030
 }
 a:hover .icon-s-posterous {
-    color: #eac954 !important
+    color: #eac954
 }
 a:hover .icon-s-appnet {
-    color: #0291c9 !important
+    color: #0291c9
 }
 a:hover .icon-s-gplus {
-    color: #a84539 !important
+    color: #a84539
 }
 a:hover .icon-s-stumbleupon {
-    color: #eb4923 !important
+    color: #eb4923
 }
 a:hover .icon-s-lastfm {
-    color: #be0c02 !important
+    color: #be0c02
 }
 a:hover .icon-s-spotify {
-    color: #7cc011 !important
+    color: #7cc011
 }
 a:hover .icon-s-instagram {
-    color: #a4765c !important
+    color: #a4765c
 }
 a:hover .icon-s-evernote {
-    color: #82d15c !important
+    color: #82d15c
 }
 a:hover .icon-s-paypal {
-    color: #2a608e !important
+    color: #2a608e
 }
 a:hover .icon-s-picasa {
-    color: #9864ae !important
+    color: #9864ae
 }
 a:hover .icon-s-soundcloud {
-    color: #ff680d !important
+    color: #ff680d
 }
 .social.color a:hover i {
         color: #fff !important;
@@ -3704,6 +3704,55 @@ right: 50px;
     background: #FFF url('../images/fondos/enjambre-bit_bg_proyector-holografico.png') no-repeat center right;
     background-size: cover;
 }
+
+/* Info de contacto fija */
+.fixed-contact-info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 34px;
+  background-color: rgba(150,0,0,0.8);
+  color: white;
+  z-index: 9000;
+  text-align: right;
+  padding-right: 40px;
+  margin: 0;
+}
+
+.fixed-contact-info ul {
+  margin: 0;
+  padding-top: 1px;
+}
+
+.fixed-contact-info ul > li {
+  display: inline;
+  color: #fff;
+  margin: 0 8px;
+}
+
+.fixed-contact-info ul > li > a,
+.enjambre-footer-logo a {
+  color: #480000;
+}
+
+.fixed-contact-info ul > li > a:hover,
+a:hover .icon-s-twitter,
+a:hover .icon-s-facebook,
+a:hover .icon-s-instagram,
+a:hover .icon-s-youtube,
+a:hover .icon-s-linkedin,
+a:hover .icon-s-github,
+.enjambre-footer-logo a:hover {
+  color: #ffffff !important;
+}
+
+.enjambre-footer-logo {
+	font-size: 24px;
+	font-weight: 300;
+	font-family: 'TRACEROUTE', sans-serif;
+	color: #480000;
+}
+
 
 @media (max-width: 1800px) {
   .fullscreen-bg {

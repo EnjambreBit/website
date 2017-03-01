@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'traceroute';
+  src: url("traceroute/TRACER__.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'traceroute-italic';
+  src: url("traceroute/TRACERI_.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

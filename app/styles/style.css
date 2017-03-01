@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
 
+footer {
+  display: none;
+}
 
 .fullscreen-bg {
   /*width: 1920px;
